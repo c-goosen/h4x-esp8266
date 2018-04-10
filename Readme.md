@@ -7,6 +7,10 @@ Author: Christo Goosen
 
 mail: christo.goosen@owasp.org / christo.goosen@takectrl.co.za / christogoosen@gmail.com
 
+zatech: @crypticg00se
+
+twitter: @owasp_cpt
+
 
 ## ESP 8266 Getting Started
 
@@ -77,9 +81,26 @@ For commands see: https://github.com/espressif/esptool
 Example: `esptool.py --port /dev/cu.wchusbserial1420 --baud 115200 erase_flash`
 
 #### NodeMCU (LUA-based firmware)
+http://www.nodemcu.com/index_en.html
 
 #### Arduino (C++)
 
+1. Download the Arduino IDE & install https://www.arduino.cc/en/Main/Software
+2. Follow this guide to install the esp8266 core: https://github.com/esp8266/Arduino
+
 #### Mongoose-OS (C++/Javascript)
+
+https://mongoose-os.com/docs/quickstart/setup.html
+
+Very easy to install, runs a mini OS with a filesystem etc.
+
+You can upload and download files to and from device. Write in either javascript or c++.
+
+
+
+### Flashing the esp8266 firmware
+
+`esptool.py --port /dev/cu.wchusbserial1410 --baud 115200 write_flash 0 firmware/micropython/firmware-combined.bin`
+
 
 
