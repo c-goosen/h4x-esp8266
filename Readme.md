@@ -104,3 +104,13 @@ You can upload and download files to and from device. Write in either javascript
 
 
 
+### ESP8266 and interesting security related projects
+
+USB emulating keyboard with wifi access to observer: [Sensepost BAD USB](https://github.com/sensepost/USaBUSe)
+
+WIFI Sniffing (A program and/or device that monitors data traveling over a network. Sniffers can be used both for legitimate network management functions and for stealing information off a network.)
+https://www.hackster.io/rayburne/esp8266-mini-sniff-f6b93a
+
+WIFI DeAuth (A Wi-Fi deauthentication attack is a type of denial-of-service attack that targets communication between a user and a Wi-Fi wireless access point.)
+https://hackernoon.com/deauthentication-attack-and-other-wifi-hacks-using-an-esp8266-module-14f9142b063d
+https://github.com/spacehuhn/esp8266_deauther
